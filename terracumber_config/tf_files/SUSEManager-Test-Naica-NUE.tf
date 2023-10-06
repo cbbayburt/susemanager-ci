@@ -1,6 +1,6 @@
 // Mandatory variables for terracumber
 variable "URL_PREFIX" {
-  type = string
+  type = stringfail
   default = "https://ci.suse.de/view/Manager/view/Manager-Test/job/manager-TEST-Naica-acceptance-tests"
 }
 
